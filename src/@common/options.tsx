@@ -1,9 +1,4 @@
-let BASE_URL = "http://localhost:5000";
-if (location.hostname === "app.acharyatech.com") {
-    BASE_URL = "https://m2.acharyatech.com"
-} else if (location.hostname === "nrsa.acharyatech.com") {
-    BASE_URL = "https://nrsa-api.acharyatech.com"
-}
+let BASE_URL = "https://m2.acharyatech.com"
 export { BASE_URL }
 export const UPLOAD_URL = `${BASE_URL}/resources`
 export const API_KEY = "AIzaSyCiW4aZ-jSkaysfAfZlJWp8bO0iDfO8Jd0"
