@@ -1,0 +1,316 @@
+{
+    "dashboard": {
+        "dashboard": "Dashboard"
+    },
+    "setting": {
+        "setting": "Setting"
+    },
+    "type": {
+        "type": "Types",
+        "titles": {
+            "edit": "Edit Type",
+            "list": "Types"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "code": "Code",
+            "type": "Types"
+        },
+        "actions": {
+            "add": "Add new type",
+            "edit": "Edit type"
+        }
+    },
+    "esubject": {
+        "esubject": "Extra Activity",
+        "titles": {
+            "edit": "Edit Activity",
+            "list": "Activities"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "status": "Status"
+        },
+        "actions": {
+            "add": "Add new activity",
+            "edit": "Edit activity"
+        }
+    },
+    "formula": {
+        "formula": "Formula",
+        "titles": {
+            "edit": "Edit Formula",
+            "list": "Formulas"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "type": "Types",
+            "base": "Base",
+            "classes": "Classes",
+            "regulation": "Regulation",
+            "remark": "Remark",
+            "from": "From",
+            "to": "To",
+            "point": "Point",
+            "rank": "Rank"
+        },
+        "validation": {
+            "maxfrom": "Cannot be greater than to",
+            "maxto": "Cannot be greater than base",
+            "minfrom": "Must be greater than or equal to zero",
+            "minto": "Must be greater than zero"
+        },
+        "actions": {
+            "add": "Add new formula",
+            "edit": "Edit formula"
+        }
+    },
+    "esubjects": {
+        "esubjects": "Subjects",
+        "titles": {
+            "edit": "Edit Subject",
+            "list": "Subjects",
+            "show": "Exam Subject",
+            "marks": "Marks"
+        },
+        "fields": {
+            "id": "ID",
+            "fm": "Full Mark",
+            "pm": "Pass Mark",
+            "th_fm": "TH FM",
+            "th_pm": "TH PM",
+            "in_fm": "IN FM",
+            "in_pm": "IN PM",
+            "routine": "Routine",
+            "class": "Class",
+            "batch": "Batch",
+            "term": "Term",
+            "subject_name": "Subject Name",
+            "subject_code": "Subject Code",
+            "code": "Code",
+            "subject_credit": "Credit",
+            "subject_th_credit": "TH Credit",
+            "subject_pr_credit": "IN Credit",
+            "subject": "Subject",
+            "course_type": "Course Type",
+            "post_status": "Post Status",
+            "post_date": "Post Date",
+            "start_time": "Start Time",
+            "exam_type": "Exam",
+            "start_date": "Start Date",
+            "duration": "Duration(Hr)",
+            "progress": "Progress",
+            "total_student": "Total Student",
+            "mark_student": "Marked Student",
+            "state": "State",
+            "status": "Status",
+            "type": "Types"
+        },
+        "actions": {
+            "add": "Add new subject",
+            "edit": "Edit subject"
+        }
+    },
+    "rule": {
+        "rule": "Rules",
+        "titles": {
+            "edit": "Edit Rule",
+            "list": "Rules"
+        },
+        "validation": {
+            "maxtpm": "Cannot be greater than theory full mark",
+            "maxppm": "Cannot be greater than practical full mark",
+            "codeLength": "Code length must be between 3 and 10"
+        },
+        "fields": {
+            "name": "Name",
+            "th_fm": "TH FM",
+            "th_pm": "TH PM",
+            "in_fm": "IN FM",
+            "in_pm": "IN PM",
+            "theory": "Theory",
+            "internal": "Internal",
+            "formula_mark": "Mark Formula",
+            "formula_grade": "Grade Formula",
+            "regulation": "Regulation",
+            "cas_type": "CAS Type",
+            "rank_by": "Rank By",
+            "internal_pass_by": "Internal Pass",
+            "subject_pass_by": "Subject Pass"
+        },
+        "actions": {
+            "add": "Add new rule",
+            "edit": "Edit rule"
+        }
+    },
+    "routine": {
+        "routine": "Routine",
+        "titles": {
+            "create": "Create Routine",
+            "edit": "Edit Routine",
+            "list": "Routines",
+            "subjects": "Subjects",
+            "show": "Routine Detail"
+        },
+        "validation": {
+            "maxtpm": "Cannot be greater than theory full mark",
+            "maxppm": "Cannot be greater than practical full mark"
+        },
+        "fields": {
+            "id": "ID",
+            "code": "Code",
+            "class": "Class",
+            "batch": "Batch",
+            "type": "Types",
+            "rule": "Rules",
+            "full_mark": "Full Mark",
+            "pass_mark": "Pass Mark",
+            "process": "Process",
+            "duration": "Duration",
+            "template": "Template",
+            "grade_template": "Grade Ledger",
+            "mark_template": "Mark Ledger",
+            "start_time": "Start Time",
+            "end_time": "End Time",
+            "start_date": "Start Date",
+            "result_date": "Result Date",
+            "last_processed": "Last Processed",
+            "state": "State",
+            "status": "Status",
+            "subject": "Subject",
+            "subject_code": "Subject Code",
+            "subject_name": "Subject Name",
+            "created_at": "Created At"
+        },
+        "actions": {
+            "subject": "Get Subjects",
+            "add": "Add new routine",
+            "edit": "Edit routine",
+            "showMore": "Show More",
+            "showLess": "Show Less",
+            "addSubject": "Add new subject",
+            "generate": "Generate Marks"
+        }
+    },
+    "marks": {
+        "marks": "Marks",
+        "titles": {
+            "edit": "Edit Mark",
+            "list": "Marks",
+            "show": "Exam Mark",
+            "import": "Import Marks"
+        },
+        "fields": {
+            "id": "ID",
+            "regid": "Regid",
+            "section": "Section",
+            "student_name": "Student Name",
+            "absent": "Absent",
+            "internal": "Internal",
+            "project": "Project",
+            "engage": "Engage",
+            "theory": "Theory",
+            "absent_min": "Abs",
+            "internal_min": "IN",
+            "project_min": "PW",
+            "engage_min": "PA",
+            "theory_min": "TH",
+            "total": "Total",
+            "remark": "Remark"
+        },
+        "info": {
+            "confirmReset": "Are you sure you want to clear all marks?",
+            "confirmPost": "Are you sure you want to post all marks?",
+            "confirmUnpost": "Are you sure you want to unpost marks?",
+            "excelRequiredField": "Excel file must consist of column 'REGID' and 'THEORY' or 'INTERNAL'"
+        },
+        "errors": {
+            "excelMissingField": "Excel file is missing required column {{field}}",
+            "excelInvalidRows": "Excel consist of unwanted rows"
+        },
+        "actions": {
+            "submit": "Submit",
+            "export": "Export",
+            "import": "Import",
+            "clear": "Clear",
+            "reset": "Reset",
+            "edit": "Edit marks",
+            "post": "Post",
+            "unpost": "Unpost"
+        }
+    },
+    "result": {
+        "result": "Results",
+        "titles": {
+            "list": "Result List",
+            "reload": "Reload Student Detail",
+            "viewResult": "Result List",
+            "viewLedger": "Result Ledger"
+        },
+        "labels": {
+            "version": "Version",
+            "result": "Result",
+            "routine": "Routine",
+            "term": "Term",
+            "class": "Class",
+            "batch": "Batch",
+            "passRatio": "Pass Ratio",
+            "resultSheet": "Result Sheet",
+            "gradeLedger": "Grade Ledger",
+            "markLedger": "Mark Ledger",
+            "view": "View Selected"
+        },
+        "info": {
+            "datatableMissing": "Datatable is missing required Mark Listing Table"
+        },
+        "fields": {
+            "id": "ID",
+            "regid": "Regid",
+            "section": "Section",
+            "student": "Student Name",
+            "rollno": "Roll No",
+            "rank": "Rank",
+            "certificate_no": "Certificate No",
+            "cgpa": "CGPA",
+            "result": "Result",
+            "routine": "Routine"
+        },
+        "actions": {
+            "grade_sheet": "Grade Sheet",
+            "mark_sheet": "Mark Sheet",
+            "grade_ledger": "Grade Ledger",
+            "mark_ledger": "Mark Ledger"
+        }
+    },
+    "final": {
+        "final": "Finals Report",
+        "titles": {
+            "list": "Finals Report"
+        },
+        "fields": {
+            "id": "ID",
+            "code": "Routine Code",
+            "routine": "Routine",
+            "template": "Template",
+            "type": "Type",
+            "value": "Value",
+            "version": "Version",
+            "class": "Class",
+            "batch": "Batch",
+            "state": "State",
+            "cversion": "Current Version",
+            "updated_at": "Updated At"
+        },
+        "validation": {
+            "total": "Total value must be equal to 100",
+            "min": "Must be greater than zero"
+        },
+        "actions": {
+            "add": "Add new final",
+            "edit": "Edit final"
+        }
+    }
+}

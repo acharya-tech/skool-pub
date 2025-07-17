@@ -1,0 +1,14 @@
+[
+    {
+        "path": "/exam",
+        "access": [
+            "Read"
+        ]
+    },
+    {
+        "path": "/exam/routine",
+        "access": [
+            "Read"
+        ]
+    }
+]

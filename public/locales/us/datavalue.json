@@ -1,0 +1,65 @@
+{
+    "editor": {
+        "menu": {
+            "delete": "Delete",
+            "lock": "Lock",
+            "unlock": "Unlock",
+            "show": "Show",
+            "hide": "Hide",
+            "edit": "Edit",
+            "top": "Top",
+            "bottom": "Bottom",
+            "clone": "Clone"
+        },
+        "labels": {
+            "paperSize": "Paper Size"
+        },
+        "fields": {
+            "name": "Name",
+            "rotation": "Rotation",
+            "width": "Width",
+            "height": "Height",
+            "x": "X",
+            "y": "Y",
+            "scaleX": "Scale X",
+            "scaleY": "Scale Y",
+            "fontSize": "Font Size",
+            "text": "Text",
+            "color": "Color",
+            "bold": "Bold",
+            "italic": "Italic",
+            "textAlign": "Text Align",
+            "opacity": "Opacity",
+            "tableRows": "Table Rows",
+            "cellPadding": "Cell Padding",
+            "rowHeight": "Row Height",
+            "colHeight": "Column Height"
+        },
+        "actions": {
+            "list": "List",
+            "create": "Create",
+            "edit": "Edit",
+            "save": "Show",
+            "cancel": "Cancel"
+        }
+    },
+    "datavalue": {
+        "datavalue": "Data Value",
+        "info": {
+            "editToView": "Edit to view"
+        },
+        "fields": {
+            "name": "Name",
+            "module": "Module",
+            "data_key": "Data Key",
+            "data_type": "Type",
+            "data_value": "Value",
+            "constants": "Constants"
+        },
+        "actions": {
+            "add": "Add new data value",
+            "edit": "Edit data value",
+            "clone": "Clone data value"
+        }
+    }
+}

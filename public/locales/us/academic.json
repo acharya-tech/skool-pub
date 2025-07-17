@@ -1,0 +1,275 @@
+{
+    "subject": {
+        "subject": "Subjects",
+        "titles": {
+            "edit": "Edit Subject",
+            "list": "Subjects"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "full_name": "Full Name",
+            "code": "Code",
+            "isLocal": "Local Subject",
+            "th_credit": "TH Credit",
+            "in_credit": "IN Credit",
+            "class": "Class",
+            "type": "Type"
+        },
+        "actions": {
+            "add": "Add new subject",
+            "edit": "Edit subject"
+        }
+    },
+    "classSubject": {
+        "classSubject": "Class Subject",
+        "titles": {
+            "edit": "Edit Class Subject",
+            "list": "Class Subjects"
+        },
+        "fields": {
+            "id": "ID",
+            "subject": "Subject",
+            "code": "Code",
+            "sno": "S.No",
+            "class": "Class",
+            "course_type": "Course Type"
+        },
+        "actions": {
+            "add": "Add new subject",
+            "edit": "Edit subject",
+            "update": "Update"
+        }
+    },
+    "setting": {
+        "setting": "Settings"
+    },
+    "batch": {
+        "batch": "Batches",
+        "titles": {
+            "edit": "Edit Batch",
+            "list": "Batches"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "isCurrent": "Is Current"
+        },
+        "actions": {
+            "add": "Add new batch",
+            "edit": "Edit batch"
+        }
+    },
+    "program": {
+        "program": "Program",
+        "titles": {
+            "edit": "Edit Program",
+            "list": "Programs"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "faculty": "Faculty",
+            "affiliation": "Affiliation",
+            "type": "Type"
+        },
+        "actions": {
+            "add": "Add new program",
+            "edit": "Edit program"
+        }
+    },
+    "class": {
+        "class": "Class",
+        "titles": {
+            "edit": "Edit Class",
+            "list": "Classes"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "code": "Code",
+            "shift": "Shift",
+            "program": "Program",
+            "regulation": "Regulation",
+            "medium": "Medium",
+            "sessions": "Sessions",
+            "totalSubjects": "Total Subject",
+            "sort": "Sort"
+        },
+        "actions": {
+            "add": "Add new class",
+            "edit": "Edit class"
+        }
+    },
+    "section": {
+        "section": "Section",
+        "titles": {
+            "edit": "Edit Section",
+            "list": "Sections"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "sort": "Sort"
+        },
+        "actions": {
+            "add": "Add new section",
+            "edit": "Edit section"
+        }
+    },
+    "period": {
+        "period": "Period",
+        "titles": {
+            "edit": "Edit Period",
+            "list": "Periods"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "sort": "Sort",
+            "start_time": "Start Time",
+            "duration": "Duration",
+            "end_time": "End Time"
+        },
+        "validation": {
+            "greaterThan": "End Time should greater than Start Time"
+        },
+        "actions": {
+            "add": "Add new period",
+            "edit": "Edit period"
+        }
+    },
+    "room": {
+        "room": "Room",
+        "titles": {
+            "edit": "Edit Room",
+            "list": "Rooms"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "class": "Class",
+            "section": "Section",
+            "size": "Size",
+            "row": "Rows",
+            "column": "Columns"
+        },
+        "filter": {
+            "title": "Filters",
+            "search": {
+                "label": "Search",
+                "placeholder": "Search"
+            },
+            "name": {
+                "label": "Name",
+                "placeholder": "Search Name"
+            },
+            "class": {
+                "label": "Class",
+                "placeholder": "Search Class"
+            },
+            "createdAt": {
+                "label": "Created At"
+            },
+            "submit": "Filter"
+        },
+        "actions": {
+            "add": "Add new room",
+            "edit": "Edit room"
+        }
+    },
+    "hostel": {
+        "hostel": "Hostel",
+        "titles": {
+            "edit": "Edit Hostel",
+            "list": "Hostels"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name"
+        },
+        "actions": {
+            "add": "Add new hostel",
+            "edit": "Edit hostel"
+        }
+    },
+    "house": {
+        "house": "House",
+        "titles": {
+            "edit": "Edit House",
+            "list": "Houses"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "color": "Color"
+        },
+        "actions": {
+            "add": "Add new house",
+            "edit": "Edit house"
+        }
+    },
+    "session": {
+        "session": "Session",
+        "titles": {
+            "edit": "Edit Session",
+            "list": "Sessions"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "week": "Week"
+        },
+        "actions": {
+            "add": "Add new session",
+            "edit": "Edit session"
+        }
+    },
+    "dashboard": {
+        "dashboard": "Dashboard",
+        "labels": {
+            "totalSubject": "Total Subject",
+            "totalTeachers": "Total Teachers",
+            "assignedTeachers": "Assigned To Teachers",
+            "activeBatch": "Active Batch",
+            "subjectTypePie": "Subject By Type",
+            "runningSchedule": "Running Schedule",
+            "unassignedSubject": "Unassigned Subject"
+        },
+        "info": {
+            "totalBirthday": "You have {{count}} birthday today",
+            "noBirthday": "There is not birthday today"
+        },
+        "actions": {
+            "viewAll": "View all"
+        }
+    },
+    "timeline": {
+        "timeline": "Timelines",
+        "titles": {
+            "list": "Timelines",
+            "section": "Timetable for {{section}}",
+            "head": "Times",
+            "printSchednule": "Schedule for Class {{class}} as of {{date}}"
+        },
+        "fields": {
+            "class": "Class",
+            "session": "Session",
+            "subject": "Subject",
+            "period": "Period",
+            "section": "Section",
+            "teachers": "Teachers"
+        },
+        "info": {
+            "selectClassSession": "Please select class and session",
+            "dragTeacher": "Drag a teacher and drop into a slot. Double click teacher to view info."
+        },
+        "actions": {
+            "save": "Save timetable",
+            "add": "Add timeline",
+            "clone": "Clone timeline"
+        }
+    }
+}

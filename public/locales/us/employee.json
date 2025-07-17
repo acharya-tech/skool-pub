@@ -1,0 +1,219 @@
+{
+    "staff": {
+        "staff": "Staffs",
+        "titles": {
+            "edit": "Edit Staff",
+            "list": "Staffs",
+            "employeeDetail": "Staff Info",
+            "personalInfo": "Personal Information",
+            "contactInfo": "Contact Information",
+            "studentRelation": "Student Relations",
+            "staffRelation": "Staff Relations",
+            "payrollBank": "Payroll and Bank Info",
+            "uploadDoc": "Uploads",
+            "staffDoc": "Staff Documents",
+            "otherInfo": "Other Info",
+            "scheduleHead":"Periods",
+            "groups": "Groups"
+        },
+        "tabs": {
+            "staffInfo": "Staff Info",
+            "libraryInfo": "Library",
+            "leaveInfo": "Attendance",
+            "periodSchedule": "Period Schedule",
+            
+            "notes": "Notes",
+            "exams": "Exams",
+            "certificates": "Certificates",
+            "accounts": "Accounts"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "code": "Code",
+            "image": "Profile Image",
+            "email": "Email",
+            "phone": "Phone",
+            "post": "Post",
+            "married": "Marital Status",
+            "emp_type": "Employee Type",
+            "type": "Type",
+            "contract_type": "Contract",
+            "cit_no": "CIT Number",
+            "pan_no": "PAN Number",
+            "pf_no": "PF Number",
+            "ssf_no": "SSF Number",
+            "bank_detail": "Bank Detail",
+            "bank_name": "Bank Name",
+            "account_no": "Account Number",
+            "account_name": "Account Name",
+            "licenses_no": "Licenses Number",
+            "qualification": "Qualification",
+            "address": "Address",
+            "address1": "Address1",
+            "address2": "Address2",
+            "blood_group": "Blood Group",
+            "gender": "Gender",
+            "date_of_birth": "Date of Birth",
+            "date_of_join": "Date of Join",
+            "work_shift": "Work Shift",
+            "department": "Department",
+            "payroll": "Payroll",
+            "ledger": "Ledger",
+            "groups": "Groups",
+            "status": "Status",
+            "salary": "Salary"
+        },
+        "actions": {
+            "add": "Add new user",
+            "edit": "Edit user",
+            "setLedger": "Set Ledger"
+        }
+    },
+    "groups": {
+        "groups": "Groups",
+        "titles": {
+            "show": "Group Details",
+            "list": "Group List"
+        },
+        "labels": {
+            "filter": "Filter",
+            "from": "From",
+            "to": "To"
+        },
+        "fields": {
+            "name": "Name",
+            "tot_mem": "Total Members",
+            "employees": "Employees",
+            "members": "Members"
+        },
+        "actions": {
+            "add": "Add New Group",
+            "edit": "Edit Group",
+            "check": "Manage",
+            "save": "Save",
+            "reset": "Reset",
+            "transfer": "Transfer"
+        }
+    },
+    "student": {
+        "student": "Student",
+        "titles": {
+            "edit": "Edit Student",
+            "list": "Students"
+        },
+        "fields": {
+            "student": "Student Name",
+            "relation": "Relation"
+        },
+        "actions": {
+            "add": "Add student",
+            "edit": "Edit student"
+        }
+    },
+    "staff_relation": {
+        "staff_relation": "Staff Relation",
+        "titles": {
+            "edit": "Edit Relation",
+            "list": "Staff Relations"
+        },
+        "fields": {
+            "staff": "Staff Name",
+            "relation": "Relation"
+        },
+        "actions": {
+            "add": "Add Staff Relation",
+            "edit": "Edit Staff Relation"
+        }
+    },
+    "staff_doc": {
+        "staff_doc": "Documents",
+        "titles": {
+            "edit": "Edit Document",
+            "list": "Staff Documents"
+        },
+        "fields": {
+            "image": "File",
+            "type": "Type",
+            "remark": "Remark"
+        },
+        "actions": {
+            "add": "Add Document",
+            "edit": "Edit Document"
+        }
+    },
+    "department": {
+        "department": "Department",
+        "titles": {
+            "edit": "Edit Department",
+            "list": "Departments"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "description": "Description"
+        },
+        "actions": {
+            "add": "Add new department",
+            "edit": "Edit department"
+        }
+    },
+    "group": {
+        "group": "Group",
+        "titles": {
+            "edit": "Edit Group",
+            "list": "Groups"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name"
+        },
+        "actions": {
+            "add": "Add new user",
+            "edit": "Edit user"
+        }
+    },
+    "post": {
+        "post": "Post",
+        "titles": {
+            "edit": "Edit Post",
+            "list": "Posts"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "level": "Level",
+            "description": "Description"
+        },
+        "actions": {
+            "add": "Add new post",
+            "edit": "Edit post"
+        }
+    },
+    "dashboard": {
+        "dashboard": "Dashboard",
+        "labels": {
+            "totalStaff": "Total Staffs",
+            "totalGroup": "Total Groups",
+            "totalPost": "Total Posts",
+            "totalDepartment": "Total Departments",
+            "staffByType": "Staff By Type",
+            "todayBirthday": "Today's Birthday",
+            "newStaff": "New Staff",
+            "groupPie": "Group Pie"
+        },
+        "info": {
+            "totalBirthday": "You have {{count}} birthday today",
+            "noBirthday": "There is not birthday today"
+        },
+        "actions": {
+            "viewAll": "View all"
+        }
+    },
+    "attendance": {
+        "attendance": "Attendance"
+    },
+    "setting": {
+        "setting": "Setting"
+    }
+}

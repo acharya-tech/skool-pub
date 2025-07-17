@@ -1,0 +1,52 @@
+{
+    "dashboard": {
+        "dashboard": "Dashboard"
+    },
+    "setting": {
+        "setting": "Setting"
+    },
+    "users": {
+        "users": "Users",
+        "titles": {
+            "edit": "Edit User",
+            "list": "Users"
+        },
+        "fields": {
+            "id": "ID",
+            "image": "Image",
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "staff": "Staff",
+            "account_type": "Account Type",
+            "password": "Password",
+            "confirm_password": "Confirm Password",
+            "roles": "Roles",
+            "status": "Status"
+        },
+        "actions": {
+            "add": "Add new user",
+            "edit": "Edit user"
+        }
+    },
+    "roles": {
+        "roles": "Roles",
+        "titles": {
+            "edit": "Edit Role",
+            "list": "Roles",
+            "access_assign": "Access Control Assign"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "users": "Users",
+            "description": "Description",
+            "status": "Status"
+        },
+        "actions": {
+            "add": "Add new role",
+            "edit": "Edit role",
+            "update": "Update role"
+        }
+    }
+}

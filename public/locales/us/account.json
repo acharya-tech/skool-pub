@@ -1,0 +1,290 @@
+{
+    "dashboard": {
+        "dashboard": "Dashboard"
+    },
+    "ledgerGroup": {
+        "ledgerGroup": "Ledger Group",
+        "titles": {
+            "create": "Create Ledger Group",
+            "edit": "Edit Ledger Group",
+            "list": "Ledger Groups",
+            "show": "Show Ledger Group"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "bs_head": "BS Head",
+            "bs_type": "BS Type",
+            "group_type": "Group Type",
+            "is_fixed": "Is Fixed",
+            "status": "Status"
+        },
+        "actions": {
+            "add": "Create Ledger Group",
+            "edit": "Edit Ledger Group"
+        }
+    },
+    "ledger": {
+        "ledger": "Ledger",
+        "titles": {
+            "create": "Create Ledger",
+            "edit": "Edit Ledger",
+            "list": "Ledgers",
+            "show": "Show Ledger"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "code": "Code",
+            "type": "Type",
+            "is_fixed": "Is Fixed",
+            "ledgerGroup": "Ledger Group",
+            "status": "Status"
+        },
+        "actions": {
+            "add": "Create Ledger",
+            "edit": "Edit Ledger"
+        }
+    },
+    "payrollSetting": {
+        "payrollSetting": "Payroll Setting",
+        "titles": {
+            "create": "Create Payroll Setting",
+            "edit": "Edit Payroll Setting",
+            "list": "Payroll Settings",
+            "show": "Show Payroll Setting"
+        },
+        "fields": {
+            "id": "ID",
+            "ledger": "Ledger",
+            "max_amount": "Max Amount"
+        },
+        "actions": {
+            "add": "Create Payroll Setting",
+            "edit": "Edit Payroll Setting"
+        }
+    },
+    "payroll": {
+        "payroll": "Payroll",
+        "titles": {
+            "create": "Create Payroll",
+            "edit": "Edit Payroll",
+            "list": "Payroll",
+            "show": "Show Payroll",
+            "payroll": "Payroll"
+        },
+        "fields": {
+            "id": "ID",
+            "ledger": "Ledger",
+            "type": "Type",
+            "employee": "Employee",
+            "amount": "Amount"
+        },
+        "actions": {
+            "add": "Add Payroll",
+            "edit": "Edit Payroll"
+        }
+    },
+    "payrollPost": {
+        "payrollPost": "Payroll Post",
+        "titles": {
+            "create": "Create Post",
+            "edit": "Edit Payroll Post",
+            "list": "Payroll Post",
+            "show": "Show Payroll",
+            "payroll": "Payroll"
+        },
+        "info": {
+            "success": "Successfully created payroll post for month : "
+        },
+        "fields": {
+            "id": "ID",
+            "code": "Code",
+            "name": "Name",
+            "post": "Post",
+            "date": "Date",
+            "particular": "Particular",
+            "month": "Month",
+            "total": "Total",
+            "voucher_no": "Voucher No",
+            "dr_amount": "Dr Amount",
+            "cr_amount": "Cr Amount",
+            "balance": "Balance"
+        },
+        "actions": {
+            "add": "Add Payroll",
+            "edit": "Edit Payroll"
+        }
+    },
+    "payrollRelease": {
+        "payrollRelease": "Payroll Release",
+        "titles": {
+            "list": "Payroll Release",
+            "post_list": "Post List"
+        },
+        "info": {
+            "release": "Are you sure want to release?"
+        },
+        "fields": {
+            "code": "Code",
+            "name": "Name",
+            "post": "Post",
+            "ledger": "Ledger",
+            "type": "Type",
+            "amount": "Amount",
+            "date": "Date",
+            "month": "Month",
+            "auto_amount": "Auto Amount",
+            "previous_amount": "Previous Amount",
+            "employee": "Employee",
+            "voucher_no": "Voucher No",
+            "transaction_no": "Trn No",
+            "createdBy": "Created By",
+            "particular": "Particular",
+            "status": "Status"
+        },
+        "actions": {
+            "getRelease": "Get Release",
+            "updateRelease": "Update Release",
+            "edit": "Edit Payroll Release",
+            "release": "Release"
+        }
+    },
+    "entry": {
+        "entry": "Entry",
+        "titles": {
+            "history": "History",
+            "purchase": "Purchase Entry",
+            "sales": "Sales Entry",
+            "contra": "Contra Entry",
+            "journal": "Journal Entry"
+        },
+        "validation": {
+            "total": "Dr and Cr should be equal"
+        },
+        "fields": {
+            "id": "ID",
+            "account": "Account",
+            "ledger": "Ledger",
+            "amount": "Amount",
+            "transaction_date": "Date",
+            "by": "By",
+            "to": "To",
+            "dr": "Dr",
+            "cr": "Cr",
+            "debit": "Debit",
+            "credit": "Credit",
+            "total": "Total",
+            "narration": "Narration",
+            "status": "Status"
+        },
+        "actions": {
+            "add": "Create Entry",
+            "edit": "Edit Entry"
+        }
+    },
+    "voucher": {
+        "voucher": "Voucher",
+        "titles": {
+            "create": "Create Voucher",
+            "edit": "Edit Voucher",
+            "list": "Vouchers",
+            "show": "Show Voucher"
+        },
+        "info": {
+            "approve": "Are you sure you want to approve this voucher?",
+            "discard": {
+                "title": "Are you sure you want to discard this voucher?",
+                "label": "Enter your reason"
+            }
+        },
+        "fields": {
+            "id": "ID",
+            "voucher_no": "Voucher No",
+            "amount": "Amount",
+            "state": "State",
+            "type": "Type",
+            "transaction_date": "Date",
+            "narration": "Narration",
+            "transaction_no": "Transaction No",
+            "year": "Year",
+            "postedBy": "Posted By",
+            "approvedBy": "Approved By",
+            "discardedBy": "Discarded By"
+        },
+        "actions": {
+            "add": "Create Voucher",
+            "edit": "Edit Voucher"
+        }
+    },
+    "employee": {
+        "employee": "Employee",
+        "titles": {
+            "salaryPost": "Salary Post",
+            "salarySetup": "Salary Setup",
+            "annualDeduction": "Annual Deduction",
+            "taxInfo": "Tax Info"
+        },
+        "info": {
+            "ledgerNotSet": "Please set the salary ledger data first"
+        },
+        "fields": {
+            "ledger": "Ledger"
+        }
+    },
+    "deduction": {
+        "deduction": "Annual Deduction",
+        "fields": {
+            "ledger": "Ledger",
+            "amount": "Amount"
+        }
+    },
+    "setting": {
+        "setting": "Settings"
+    },
+    "payrollHistory": {
+        "payrollHistory": "Payroll History"
+    },
+    "payrollReport": {
+        "payrollReport": "Payroll Report",
+        "titles": {
+            "release": "Payroll Release",
+            "prepost": "Payroll Prepost",
+            "bankvoucher": "Payroll Bank Voucher"
+        }
+    },
+    "report": {
+        "report": "Reports",
+        "titles": {
+            "ledger": "Ledger",
+            "trial": "Trial",
+            "pl": "Profit and loss",
+            "bs": "Balance sheet"
+        },
+        "info": {
+            "payrollRelease": "Select month and type to get payroll release",
+            "payrollBankvoucher": "Select month and ledger to get payroll bank voucher"
+        },
+        "labels": {
+            "dateRange": "Select Date Range",
+            "ledger": "Ledger",
+            "transaction_date": "Date",
+            "dr_amount": "Dr Amount",
+            "cr_amount": "Cr Amount",
+            "narration": "Narration",
+            "voucher_no": "Voucher No",
+            "balance": "Balance",
+            "total": "Total",
+            "name": "Name",
+            "code": "Code",
+            "post":"Post",
+            "month": "Month",
+            "type": "Type",
+            "bank_name": "Bank Name",
+            "account_number": "Account No."
+        }
+    },
+    "datavalue": {
+        "datavalue": "Data Value"
+    }
+}

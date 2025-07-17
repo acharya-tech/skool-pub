@@ -1,0 +1,377 @@
+{
+    "dashboard": {
+        "dashboard": "Dashboard"
+    },
+    "feeItem": {
+        "feeItem": "Fee Items",
+        "titles": {
+            "create": "Create Fee",
+            "edit": "Edit Fee",
+            "list": "Fee Items",
+            "show": "Show Fee"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "module": "Module",
+            "module_type": "Module Type",
+            "type": "Fee Type",
+            "isDeposit": "Is Deposit",
+            "isDefaultFee": "Is Default Fee",
+            "status": "Status"
+        },
+        "actions": {
+            "add": "Create Fee",
+            "edit": "Edit Fee"
+        }
+    },
+    "feeClass": {
+        "feeClass": "Fee In Class",
+        "titles": {
+            "create": "Create Fee In Class",
+            "edit": "Edit Fee In Class",
+            "list": "Fee In Class",
+            "show": "Show Class"
+        },
+        "fields": {
+            "id": "ID",
+            "class": "Class",
+            "year": "Year",
+            "subject": "Subject",
+            "student": "Student",
+            "fee": "Fee",
+            "amount": "Amount",
+            "post_type": "Post Type",
+            "module_type": "Module Type",
+            "module": "Module",
+            "status": "Status"
+        },
+        "filter": {
+            "title": "Filters",
+            "search": {
+                "label": "Search",
+                "placeholder": "Search"
+            },
+            "submit": "Filter"
+        },
+        "actions": {
+            "add": "Add Fee In Class",
+            "edit": "Edit Fee In Class"
+        }
+    },
+    "feeStudent": {
+        "feeStudent": "Fee Student",
+        "titles": {
+            "create": "Add Student Fee",
+            "edit": "Edit Student Fee",
+            "list": "Student Fee List",
+            "show": "Show Student Fee"
+        },
+        "fields": {
+            "id": "ID",
+            "class": "Class",
+            "regid": "Regid",
+            "name": "Name",
+            "student": "Student",
+            "fee": "Fee"
+        },
+        "actions": {
+            "add": "Create Student Fee",
+            "edit": "Edit Student Fee"
+        }
+    },
+    "feeReceive": {
+        "feeReceive": "Fee Receive",
+        "titles": {
+            "create": "Fee Receive",
+            "feeLedger": "Fee Ledger",
+            "feeReport": "Fee Report",
+            "release": "Fee Release",
+            "scholar": "Scholar",
+            "billDetail": "Bill Detail",
+            "feeHeads": "Fee Heads",
+            "billHistory": "Bill History"
+        },
+        "labels": {
+            "sno": "SNO",
+            "student": "Student",
+            "particular": "Particular",
+            "dr_amount": "Dr Amount",
+            "cr_amount": "Cr Amount",
+            "date": "Date",
+            "released": "Released",
+            "due": "Due",
+            "advance": "Advance",
+            "paid": "Paid",
+            "scholar": "Scholar",
+            "siblings": "Siblings",
+            "parents": "Parents",
+            "balance": "Balance",
+            "regid": "Regid",
+            "fee": "Fee",
+            "name": "Name",
+            "month": "Month",
+            "year": "Year",
+            "qty": "Qty",
+            "address": "Address",
+            "remarks": "Remarks",
+            "amount": "Amount",
+            "dueAmount": "Due Amount",
+            "total": "Total",
+            "sendNotice": "Send Notice",
+            "sendSms": "Send SMS"
+        },
+        "actions": {
+            "receive": "Receive",
+            "release": "Release",
+            "scholar": "Scholar",
+            "addItem": "Add Item",
+            "addAllDue": "Add All Due"
+        }
+    },
+    "feeRelease": {
+        "feeRelease": "Fee Release",
+        "titles": {
+            "create": "Individual Release",
+            "edit": "Release By Class",
+            "list": "Fee Release - Class List",
+            "show": "Release Detail",
+            "students": "Release By Student",
+            "student_list": "Student List",
+            "addScholar": "Add Scholar"
+        },
+        "labels": {
+            "selectClass": "Start with selecting class"
+        },
+        "fields": {
+            "id": "ID",
+            "program": "Program",
+            "release_date": "Post Date",
+            "release_month": "Month",
+            "entry": "Entry",
+            "class": "Class",
+            "regid": "Regid",
+            "name": "Name",
+            "student": "Student",
+            "section": "Section",
+            "roll_no": "Roll No",
+            "fee": "Fee",
+            "fee_type": "Type",
+            "amount": "Amount",
+            "post_amount": "Post Amount",
+            "old_release": "Old Release",
+            "duplicate_release": "Duplicate Release",
+            "account_type": "Account Type",
+            "created_by": "Created By",
+            "created_at": "Created At",
+            "total_amount": "Total Amount",
+            "avg_amount": "Avg Amount",
+            "total_post": "Total Post",
+            "remark": "Remark",
+            "scholar": "Scholar",
+            "status": "Status"
+        },
+        "actions": {
+            "add": "Individual Release",
+            "edit": "Release By Class",
+            "getReleaseData": "Get Release Data",
+            "editFee": "Edit Fee",
+            "submit": "Submit",
+            "reset": "Reset"
+        }
+    },
+    "scholarItem": {
+        "scholarItem": "Scholar Items",
+        "titles": {
+            "create": "Create Scholar",
+            "edit": "Edit Scholar",
+            "list": "Scholar Items",
+            "show": "Show Scholar"
+        },
+        "fields": {
+            "id": "ID",
+            "name": "Name",
+            "fee": "Fee",
+            "status": "Status"
+        },
+        "actions": {
+            "add": "Create Scholar",
+            "edit": "Edit Scholar"
+        }
+    },
+    "scholarPost": {
+        "scholarPost": "Scholar By Posts",
+        "titles": {
+            "create": "Create Scholar By Post",
+            "edit": "Edit Scholar By Post",
+            "list": "Scholar By Posts",
+            "show": "Show Scholar By Post"
+        },
+        "fields": {
+            "id": "ID",
+            "class": "Class",
+            "regid": "Regid",
+            "student": "Student",
+            "scholar": "Scholar",
+            "amount": "Amount",
+            "post_over": "Post Over",
+            "post_count": "Post Count",
+            "alloted": "Alloted",
+            "given": "Given",
+            "status": "Status"
+        },
+        "actions": {
+            "add": "Create Scholar By Post",
+            "edit": "Edit Scholar By Post"
+        }
+    },
+    "scholarPercent": {
+        "scholarPercent": "Scholar By Percents",
+        "titles": {
+            "create": "Create Scholar By Percent",
+            "edit": "Edit Scholar By Percent",
+            "list": "Scholar By Percent",
+            "show": "Show Scholar By Percent"
+        },
+        "fields": {
+            "id": "ID",
+            "class": "Class",
+            "section": "Section",
+            "regid": "Regid",
+            "student": "Student",
+            "scholar": "Scholar",
+            "percent": "Percent",
+            "created_by": "Created By",
+            "created_at": "Created At",
+            "end_date": "End Date",
+            "status": "Status"
+        },
+        "actions": {
+            "addMore": "Add Scholardhip",
+            "add": "Create Scholar By Percent",
+            "edit": "Edit Scholar By Percent"
+        }
+    },
+    "invoice": {
+        "invoice": "Invoices",
+        "titles": {
+            "create": "Create Invoice",
+            "edit": "Edit Invoice",
+            "list": "Invoice List",
+            "show": "Show Invoice",
+            "history": "Invoice History",
+            "items": "Invoice Items"
+        },
+        "fields": {
+            "id": "ID",
+            "month": "Month",
+            "customer_name": "Customer Name",
+            "customer_address": "Address",
+            "customer_pan": "PAN",
+            "amount": "Amount",
+            "discount": "Discount",
+            "taxable_amount": "Taxable Amount",
+            "tax_amount": "Tax Amount",
+            "total_amount": "Total Amount",
+            "bill_date": "Bill Date",
+            "bill_no": "Bill No",
+            "remark": "Remark",
+            "created_by": "Created By",
+            "created_by_id": "Created By",
+            "created_at": "Created At",
+            "item_name": "Item Name",
+            "qty": "Qty",
+            "other_item": "Other Item",
+            "status": "Status"
+        },
+        "actions": {
+            "add": "Create Invoice",
+            "edit": "Edit Invoice"
+        }
+    },
+    "report": {
+        "report": "Reports",
+        "titles": {
+            "feeCollection": "Fee Collection",
+            "feeDue": "Fee Due",
+            "feeDueLedger": "Fee Due Ledger",
+            "feeSummary": "Fee Summary",
+            "feeScholar": "Scholar"
+        },
+        "feedue": {
+            "class": "Class",
+            "uptoDate": "Upto Date",
+            "total_amount": "Total Amount",
+            "dr_amount": "Dr Amount",
+            "cr_amount": "Cr Amount",
+            "balance": "Balance",
+            "student": "Student",
+            "section": "Section",
+            "regid": "Regid",
+            "level": "Level",
+            "phone": "Phone",
+            "address": "Address"
+        }
+    },
+    "entrance": {
+        "entrance": "Entrance",
+        "form": "New Form",
+        "application": "Applications",
+        "admission": "Admissions",
+        "titles": {
+            "create": "New Entrance Form",
+            "billview": "Bill View",
+            "feeReceive": "Fee Receive"
+        },
+        "fields": {
+            "date": "Date",
+            "class": "Class",
+            "batch": "Batch",
+            "form_no": "Form Number",
+            "full_name": "Full Name",
+            "ledger": "Ledger",
+            "month": "Month",
+            "name": "Name",
+            "address": "Address",
+            "amount": "Amount",
+            "remark": "Remark",
+            "parents": "Parents",
+            "phone": "Phone",
+            "persist": "Persist Form",
+            "state": "State"
+        },
+        "actions": {
+            "add": "Create Entrance",
+            "invoice": "Invoice",
+            "withdraw": "Withdraw",
+            "reject": "Reject",
+            "accept": "Accept",
+            "cancel": "Cancel",
+            "admit": "Admit"
+        }
+    },
+    "ledger": {
+        "ledger": "Ledger",
+        "fields": {
+            "name": "Name",
+            "amount": "Amount",
+            "ledger_id": "Ledger ID"
+        },
+        "actions": {
+            "add": "Create Ledger",
+            "edit": "Edit Ledger"
+        }
+    },
+    "fee": {
+        "fee": "Fees"
+    },
+    "scholar": {
+        "scholar": "Scholarship"
+    },
+    "setting": {
+        "setting": "Settings"
+    },
+    "datavalue": {
+        "datavalue": "Data Value"
+    }
+}
