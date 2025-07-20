@@ -20,7 +20,7 @@
 * Plugins
 *************************************** */
 /* scrollbar */
-/* @import './components/scrollbar/styles.css'; */
+@import './components/scrollbar/styles.css';
 
 /* map */
 /* @import './components/map/styles.css'; */

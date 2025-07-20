@@ -21,9 +21,6 @@ export const Scrollbar = forwardRef<HTMLDivElement, ScrollbarProps>((props, ref)
       className={mergeClasses([scrollbarClasses.root, className])}
       sx={[
         {
-          overflowY: 'auto',
-        },
-        {
           '& .simplebar-wrapper': slotProps?.wrapperSx as React.CSSProperties,
           '& .simplebar-content-wrapper': slotProps?.contentWrapperSx as React.CSSProperties,
           '& .simplebar-content': slotProps?.contentSx as React.CSSProperties,
@@ -37,6 +34,7 @@ export const Scrollbar = forwardRef<HTMLDivElement, ScrollbarProps>((props, ref)
   );
 });
 
+// ----------------------------------------------------------------------
 
 const ScrollbarRoot = styled(SimpleBar, {
   shouldForwardProp: (prop: string) => !['fillContent', 'sx'].includes(prop),

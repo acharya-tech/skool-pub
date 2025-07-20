@@ -207,7 +207,7 @@ export function Searchbar({ data: navItems = [], sx, ...other }: SearchbarProps)
         {notFound ? (
           <SearchNotFound query={searchQuery} sx={{ py: 15, px: 2.5 }} />
         ) : (
-          <Scrollbar sx={{ p: 2.5, minHeight: 0 }}>{renderList()}</Scrollbar>
+          <Scrollbar sx={{ p: 2.5, height: 400 }}>{renderList()}</Scrollbar>
         )}
       </Dialog>
     </>
