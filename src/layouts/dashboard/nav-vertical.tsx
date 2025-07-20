@@ -68,7 +68,7 @@ export function NavVertical({
   const renderNavVertical = () => (
     <Box display={'flex'} height={'100%'}>
       {/* TODO : Add Scrollbar */}
-      {/* <Scrollbar> */}
+
       {renderMainMenu}
       <Box sx={{ width: "100%", height: 1 }} >
         {slots?.topArea ?? (
@@ -76,9 +76,10 @@ export function NavVertical({
             <Logo isSingle={isNavMini} />
           </Box>
         )}
-        <NavSectionVertical data={navData} cssVars={cssVars} sx={{ px: 1, flex: '1 1 auto', overflowY: "auto" }} />
+        <Scrollbar fillContent>
+          <NavSectionVertical data={navData} cssVars={cssVars} sx={{ px: 1, flex: '1 1 auto', overflowY: "auto" }} />
+        </Scrollbar>
       </Box>
-      {/* </Scrollbar> */}
     </Box>
   );
   const renderMainMenu = useMemo(() => <NavMainMenu cssVars={cssVars} sx={{ px: 2, flex: '1 1 auto' }} />, [])
